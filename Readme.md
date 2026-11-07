@@ -78,29 +78,29 @@ projeto/
 
 ---
 
-## 4. Distribuição Equilibrada de Tarefas (4 Elementos)
+## 4. Distribuição Equilibrada de Tarefas
 
-A divisão das responsabilidades foi atribuída de forma equilibrada entre as camadas do sistema:
+A carga de trabalho foi distribuída de forma rigorosa tendo em conta a ponderação oficial das instruções na avaliação quantitativa (total de 20 pontos), garantindo cerca de 5 pontos de responsabilidade direta e uma camada arquitetural a cada elemento:
 
-### Aluno 1 (`[Nome do Aluno 1]`):
-* **Foco:** Camada de Repositórios, Gestão de Jogadores e Controlador de Sessão.
-* **Ficheiros:** `Modelos/Jogador.cs`, `Repositorios/*`, `Controladores/ControladorJogador.cs`, `Program.cs`.
-* **Instruções:** `RJ` (Registar), `LJ` (Listar ordenado), `IJ` (Iniciar partida), `TJ` (Terminar jogo) e `DS` (Desistir).
+### Aluno 1 (`[Nome do Aluno 1]`) — 5 Pontos de Avaliação
+* **Camadas:** `Repositorios/*`, `Modelos/Jogador.cs`, `Controladores/ControladorJogador.cs`, `Program.cs`.
+* **Instruções:** `RJ` (1 pt), `LJ` (1 pt), `IJ` (1 pt) e `TJ` (2 pts).
+* **Responsabilidades:** Ciclo de vida da aplicação, registo e ordenação de jogadores (por vitórias e ordem alfabética), inicialização da partida e cálculo do vencedor/empate.
 
-### Aluno 2 (`[Nome do Aluno 2]`):
-* **Foco:** Modelo Espacial e Algoritmos de Tabuleiro / Conectividade.
-* **Ficheiros:** `Comum/Coordenada.cs`, `Modelos/Celula.cs`, `Servicos/ServicoConectividade.cs`.
-* **Lógica:** Estrutura da matriz 8x8, cálculo de adjacências ortogonais e algoritmo de grafos (BFS) para garantir que a colónia permanece sempre ligada à Base após uma demolição (`DM`).
+### Aluno 2 (`[Nome do Aluno 2]`) — 5 Pontos de Avaliação
+* **Camadas:** `Comum/Coordenada.cs`, `Modelos/Celula.cs`, `Tabuleiro/MapaMarte.cs`, `Servicos/ServicoConectividade.cs`.
+* **Instruções:** `DM` (3 pts) e `TR` (2 pts).
+* **Responsabilidades:** Gestão espacial do tabuleiro 8x8, trocas de recursos à taxa 3:1, execução da demolição de módulos e implementação do algoritmo de pesquisa em largura (BFS) para validação da conectividade da colónia.
 
-### Aluno 3 (`[Nome do Aluno 3]`):
-* **Foco:** Serviços de Economia e Ações de Jogo.
-* **Ficheiros:** `Modelos/EstadoJogador.cs`, `Servicos/ServicoAcoes.cs`, `Controladores/ControladorAcoes.cs` (ações `CM`, `DM`, `TR`).
-* **Lógica:** Implementação e validação estrita da hierarquia de erros em `CM` (10 condições), devolução de metal em `DM` e trocas à taxa 3:1 em `TR`.
+### Aluno 3 (`[Nome do Aluno 3]`) — 4 Pontos de Avaliação (Alta Complexidade)
+* **Camadas:** `Modelos/EstadoJogador.cs`, `Servicos/ServicoAcoes.cs`, `Controladores/ControladorAcoes.cs`.
+* **Instruções:** `CM` (3 pts) e `DS` (1 pt).
+* **Responsabilidades:** Implementação da lógica de custos e validação exaustiva dos 10 cenários de insucesso na construção de módulos (`CM`), bem como a lógica de desistência (`DS`) e limpeza de módulos do mapa.
 
-### Aluno 4 (`[Nome do Aluno 4]`):
-* **Foco:** Serviço de Produção, Camada de Vistas e Bateria de Testes.
-* **Ficheiros:** `Servicos/ServicoProducao.cs`, `Vistas/*`, `Comum/Mensagens.cs`, `Controladores/DespachanteComandos.cs`.
-* **Lógica:** Execução sequencial da produção em `TT` (recolha com efeito de tempestades $\to$ abastecimento de habitats na ordem de leitura $\to$ verificação de vitória), renderização visual do `DJ` e criação dos testes automáticos.
+### Aluno 4 (`[Nome do Aluno 4]`) — 6 Pontos de Avaliação
+* **Camadas:** `Servicos/ServicoProducao.cs`, `Vistas/*`, `Comum/Mensagens.cs`, `Controladores/DespachanteComandos.cs`.
+* **Instruções:** `TT` (3 pts) e `DJ` (3 pts).
+* **Responsabilidades:** Ciclo de produção ao terminar turno (recolha com penalização de tempestades e abastecimento sequencial de habitats), renderização completa da grelha marciana e elaboração da suite de testes automáticos.
 
 ---
 
