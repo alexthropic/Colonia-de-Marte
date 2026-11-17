@@ -92,7 +92,7 @@ A carga de trabalho foi distribuída de forma rigorosa tendo em conta a pondera�
 * **Instruções:** `DM` (3 pts) e `TR` (2 pts).
 * **Responsabilidades:** Gestão espacial do tabuleiro 8x8, trocas de recursos à taxa 3:1, execução da demolição de módulos para validação da conectividade da colónia.
 
-### Aluno 3 (`[Nome do Aluno 3]`) — 4 Pontos de Avaliação (Alta Complexidade)
+### Aluno 3 (`[Martim Fonseca]`) — 4 Pontos de Avaliação (Alta Complexidade)
 * **Camadas:** `Modelos/EstadoJogador.cs`, `Servicos/ServicoAcoes.cs`, `Controladores/ControladorAcoes.cs`.
 * **Instruções:** `CM` (3 pts) e `DS` (1 pt).
 * **Responsabilidades:** Implementação da lógica de custos e validação exaustiva dos 10 cenários de insucesso na construção de módulos (`CM`), bem como a lógica de desistência (`DS`) e limpeza de módulos do mapa.
