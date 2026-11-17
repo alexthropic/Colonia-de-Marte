@@ -82,7 +82,7 @@ projeto/
 
 A carga de trabalho foi distribuída de forma rigorosa tendo em conta a ponderação oficial das instruções na avaliação quantitativa (total de 20 pontos), garantindo cerca de 5 pontos de responsabilidade direta e uma camada arquitetural a cada elemento:
 
-### Aluno 1 (`[Nome do Aluno 1]`) — 5 Pontos de Avaliação
+### Aluno 1 (`[Marco Fonseca]`) — 5 Pontos de Avaliação
 * **Camadas:** `Repositorios/*`, `Modelos/Jogador.cs`, `Controladores/ControladorJogador.cs`, `Program.cs`.
 * **Instruções:** `RJ` (1 pt), `LJ` (1 pt), `IJ` (1 pt) e `TJ` (2 pts).
 * **Responsabilidades:** Ciclo de vida da aplicação, registo e ordenação de jogadores (por vitórias e ordem alfabética), inicialização da partida e cálculo do vencedor/empate.
