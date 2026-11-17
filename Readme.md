@@ -90,7 +90,7 @@ A carga de trabalho foi distribuída de forma rigorosa tendo em conta a pondera�
 ### Aluno 2 (`[Nome do Aluno 2]`) — 5 Pontos de Avaliação
 * **Camadas:** `Comum/Coordenada.cs`, `Modelos/Celula.cs`, `Tabuleiro/MapaMarte.cs`, `Servicos/ServicoConectividade.cs`.
 * **Instruções:** `DM` (3 pts) e `TR` (2 pts).
-* **Responsabilidades:** Gestão espacial do tabuleiro 8x8, trocas de recursos à taxa 3:1, execução da demolição de módulos e implementação do algoritmo de pesquisa em largura (BFS) para validação da conectividade da colónia.
+* **Responsabilidades:** Gestão espacial do tabuleiro 8x8, trocas de recursos à taxa 3:1, execução da demolição de módulos para validação da conectividade da colónia.
 
 ### Aluno 3 (`[Nome do Aluno 3]`) — 4 Pontos de Avaliação (Alta Complexidade)
 * **Camadas:** `Modelos/EstadoJogador.cs`, `Servicos/ServicoAcoes.cs`, `Controladores/ControladorAcoes.cs`.
