@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexr\\projeto\\src\\ColoniaEmMarte.csproj": {}
+    "C:\\Users\\alexr\\Desktop\\Colonia-de-Marte\\ColoniaEmMarte.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexr\\projeto\\src\\ColoniaEmMarte.csproj": {
+    "C:\\Users\\alexr\\Desktop\\Colonia-de-Marte\\ColoniaEmMarte.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexr\\projeto\\src\\ColoniaEmMarte.csproj",
+        "projectUniqueName": "C:\\Users\\alexr\\Desktop\\Colonia-de-Marte\\ColoniaEmMarte.csproj",
         "projectName": "ColoniaEmMarte",
-        "projectPath": "C:\\Users\\alexr\\projeto\\src\\ColoniaEmMarte.csproj",
+        "projectPath": "C:\\Users\\alexr\\Desktop\\Colonia-de-Marte\\ColoniaEmMarte.csproj",
         "packagesPath": "C:\\Users\\alexr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexr\\projeto\\src\\obj\\",
+        "outputPath": "C:\\Users\\alexr\\Desktop\\Colonia-de-Marte\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexr\\AppData\\Roaming\\NuGet\\NuGet.Config"
