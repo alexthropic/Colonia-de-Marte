@@ -1,4 +1,5 @@
-﻿using ColoniaEmMarte.Vistas;
+﻿using ColoniaEmMarte.Servicos;
+using static ColoniaEmMarte.Servicos.ServicoProducao;
 
 namespace ColoniaEmMarte;
 
@@ -6,29 +7,35 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        // 1. Criamos uma grelha 8x8 de teste com a sessão da página 14 do enunciado:
-        string[,] mapaTeste = new string[8, 8]
+        Console.WriteLine("=== A TESTAR O COMANDO TT (PRODUÇÃO) ===");
+
+        // Cenário da Ana:
+        // Recursos iniciais após construir 1 Painel e 1 Extrator de Minério:
+        // Tinha (3 E, 2 A, 6 M). Gastou para os 2 módulos e ficou com:
+        int anaEnergia = 2;
+        int anaAgua = 2;
+        int anaMetal = 2;
+        int anaColonos = 0;
+
+        var modulosAna = new List<ModuloInfo>
         {
-            { "--", "~~", "--", "^^", "^^", "--", "~~", "--" },
-            { "X1", "B1", "H1", "--", "##", "--", "--", "^^" },
-            { "--", "--", "~~", "--", "--", "~~", "--", "--" },
-            { "##", "--", "^^", "--", "~~", "^^", "--", "##" },
-            { "##", "--", "^^", "~~", "--", "^^", "--", "##" },
-            { "--", "--", "~~", "--", "--", "~~", "H2", "--" },
-            { "^^", "--", "--", "##", "--", "--", "B2", "^^" },
-            { "--", "~~", "--", "^^", "^^", "--", "X2", "--" }
+            new ModuloInfo { Tipo = 'S', Terreno = "Planície", Linha = 1, Coluna = 2 }, // Painel em C2
+            new ModuloInfo { Tipo = 'X', Terreno = "Minério", Linha = 1, Coluna = 0 }  // Extrator em A2
         };
 
-        Console.WriteLine("=== A TESTAR O COMANDO DJ ===");
-        
-        // Desenha as 8 linhas do mapa
-        VistaTabuleiro.DesenharGrelha(mapaTeste);
+        // Ronda 1: Ana termina o turno
+        string saidaTT = ServicoProducao.ExecutarFimDeTurno(
+            nomeJogador: "Ana",
+            proximoJogador: "Rui",
+            ronda: 1,
+            ref anaEnergia,
+            ref anaAgua,
+            ref anaMetal,
+            ref anaColonos,
+            modulosAna
+        );
 
-        // Desenha a ronda 2 (Vez do Rui)
-        VistaTabuleiro.DesenharRondaETurno(2, "Rui");
-
-        // Desenha o estado dos 2 jogadores
-        VistaTabuleiro.DesenharInfoJogador(1, "Ana", 4, 4, 3, 1);
-        VistaTabuleiro.DesenharInfoJogador(2, "Rui", 1, 4, 2, 1);
+        Console.WriteLine(saidaTT);
+        Console.WriteLine($"Recursos da Ana agora: E:{anaEnergia} A:{anaAgua} M:{anaMetal} Colonos:{anaColonos}");
     }
 }
