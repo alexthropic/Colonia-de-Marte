@@ -97,7 +97,7 @@ A carga de trabalho foi distribuída de forma rigorosa tendo em conta a pondera�
 * **Instruções:** `CM` (3 pts) e `DS` (1 pt).
 * **Responsabilidades:** Implementação da lógica de custos e validação exaustiva dos 10 cenários de insucesso na construção de módulos (`CM`), bem como a lógica de desistência (`DS`) e limpeza de módulos do mapa.
 
-### Aluno 4 (`[Nome do Aluno 4]`) — 6 Pontos de Avaliação
+### Aluno 4 (`[Fabio Romulo]`) — 6 Pontos de Avaliação
 * **Camadas:** `Servicos/ServicoProducao.cs`, `Vistas/*`, `Comum/Mensagens.cs`, `Controladores/DespachanteComandos.cs`.
 * **Instruções:** `TT` (3 pts) e `DJ` (3 pts).
 * **Responsabilidades:** Ciclo de produção ao terminar turno (recolha com penalização de tempestades e abastecimento sequencial de habitats), renderização completa da grelha marciana e elaboração da suite de testes automáticos.
