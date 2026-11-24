@@ -1,0 +1,15 @@
+C:\Users\alexr\Desktop\Colonia-de-Marte\bin\Debug\net10.0\ColoniaEmMarte.exe
+C:\Users\alexr\Desktop\Colonia-de-Marte\bin\Debug\net10.0\ColoniaEmMarte.deps.json
+C:\Users\alexr\Desktop\Colonia-de-Marte\bin\Debug\net10.0\ColoniaEmMarte.runtimeconfig.json
+C:\Users\alexr\Desktop\Colonia-de-Marte\bin\Debug\net10.0\ColoniaEmMarte.dll
+C:\Users\alexr\Desktop\Colonia-de-Marte\bin\Debug\net10.0\ColoniaEmMarte.pdb
+C:\Users\alexr\Desktop\Colonia-de-Marte\obj\Debug\net10.0\ColoniaEmMarte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexr\Desktop\Colonia-de-Marte\obj\Debug\net10.0\ColoniaEmMarte.AssemblyInfoInputs.cache
+C:\Users\alexr\Desktop\Colonia-de-Marte\obj\Debug\net10.0\ColoniaEmMarte.AssemblyInfo.cs
+C:\Users\alexr\Desktop\Colonia-de-Marte\obj\Debug\net10.0\ColoniaEmMarte.csproj.CoreCompileInputs.cache
+C:\Users\alexr\Desktop\Colonia-de-Marte\obj\Debug\net10.0\ColoniaEmMarte.sourcelink.json
+C:\Users\alexr\Desktop\Colonia-de-Marte\obj\Debug\net10.0\ColoniaEmMarte.dll
+C:\Users\alexr\Desktop\Colonia-de-Marte\obj\Debug\net10.0\refint\ColoniaEmMarte.dll
+C:\Users\alexr\Desktop\Colonia-de-Marte\obj\Debug\net10.0\ColoniaEmMarte.pdb
+C:\Users\alexr\Desktop\Colonia-de-Marte\obj\Debug\net10.0\ColoniaEmMarte.genruntimeconfig.cache
+C:\Users\alexr\Desktop\Colonia-de-Marte\obj\Debug\net10.0\ref\ColoniaEmMarte.dll
