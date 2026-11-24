@@ -82,22 +82,22 @@ projeto/
 
 A carga de trabalho foi distribuída de forma rigorosa tendo em conta a ponderação oficial das instruções na avaliação quantitativa (total de 20 pontos), garantindo cerca de 5 pontos de responsabilidade direta e uma camada arquitetural a cada elemento:
 
-### Aluno 1 (`[Marco Fonseca]`) — 5 Pontos de Avaliação
+### Aluno 1 (`Marco Fonseca`) — 5 Pontos de Avaliação
 * **Camadas:** `Repositorios/*`, `Modelos/Jogador.cs`, `Controladores/ControladorJogador.cs`, `Program.cs`.
 * **Instruções:** `RJ` (1 pt), `LJ` (1 pt), `IJ` (1 pt) e `TJ` (2 pts).
 * **Responsabilidades:** Ciclo de vida da aplicação, registo e ordenação de jogadores (por vitórias e ordem alfabética), inicialização da partida e cálculo do vencedor/empate.
 
-### Aluno 2 (`[Nome do Aluno 2]`) — 5 Pontos de Avaliação
+### Aluno 2 (`Carlos Lima`) — 5 Pontos de Avaliação
 * **Camadas:** `Comum/Coordenada.cs`, `Modelos/Celula.cs`, `Tabuleiro/MapaMarte.cs`, `Servicos/ServicoConectividade.cs`.
 * **Instruções:** `DM` (3 pts) e `TR` (2 pts).
 * **Responsabilidades:** Gestão espacial do tabuleiro 8x8, trocas de recursos à taxa 3:1, execução da demolição de módulos para validação da conectividade da colónia.
 
-### Aluno 3 (`[Martim Fonseca]`) — 4 Pontos de Avaliação (Alta Complexidade)
+### Aluno 3 (`Martim Fonseca`) — 4 Pontos de Avaliação (Alta Complexidade)
 * **Camadas:** `Modelos/EstadoJogador.cs`, `Servicos/ServicoAcoes.cs`, `Controladores/ControladorAcoes.cs`.
 * **Instruções:** `CM` (3 pts) e `DS` (1 pt).
 * **Responsabilidades:** Implementação da lógica de custos e validação exaustiva dos 10 cenários de insucesso na construção de módulos (`CM`), bem como a lógica de desistência (`DS`) e limpeza de módulos do mapa.
 
-### Aluno 4 (`[Fabio Romulo]`) — 6 Pontos de Avaliação
+### Aluno 4 (`Fabio Romulo`) — 6 Pontos de Avaliação
 * **Camadas:** `Servicos/ServicoProducao.cs`, `Vistas/*`, `Comum/Mensagens.cs`, `Controladores/DespachanteComandos.cs`.
 * **Instruções:** `TT` (3 pts) e `DJ` (3 pts).
 * **Responsabilidades:** Ciclo de produção ao terminar turno (recolha com penalização de tempestades e abastecimento sequencial de habitats), renderização completa da grelha marciana e elaboração da suite de testes automáticos.
