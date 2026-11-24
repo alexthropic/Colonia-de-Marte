@@ -12,7 +12,7 @@
 | Número de Estudante | Nome Completo | E-mail Institucional |
 | :--- | :--- | :--- |
 | `20241821` | `Fábio Alexandre Rómulo Teixeira` | `20241821.iade.pt` |
-| `20241582` | `[Marco Estrela Fonseca]` | `20241582@iade.pt` |
+| `20241582` | `Marco Estrela Fonseca` | `20241582@iade.pt` |
 | `20240740` | `Carlos Alexandre Avelino Lima` | `20240740@iade.pt` |
 | `[Número 4]` | `[Nome Completo do Aluno 4]` | `[email4]@ext.universidadeeuropeia.pt` |
 
