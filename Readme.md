@@ -108,11 +108,9 @@ A carga de trabalho foi distribuída de forma rigorosa tendo em conta a pondera�
 
 1. **Precedência na Validação de Erros:**  
    Em conformidade com o enunciado, quando ocorrem múltiplos erros em simultâneo, o sistema reporta unicamente o primeiro erro segundo a ordem numérica indicada. Esta regra foi implementada através de validações encadeadas nos Serviços.
-2. **Garantia de Colónia Conexa (BFS):**  
-   Ao executar o comando de demolição (`DM`), o `ServicoConectividade` simula a remoção do módulo e efetua uma pesquisa em largura (BFS) a partir da Base do jogador. Se o número de módulos alcançados for inferior ao total de módulos remanescentes, a operação é rejeitada com a mensagem: `A demolição deixaria módulos isolados.`
-3. **Ordem de Leitura no Abastecimento de Habitats:**  
+2. **Ordem de Leitura no Abastecimento de Habitats:**  
    Durante a produção (`TT`), os habitats ativos do jogador são ordenados de cima para baixo e da esquerda para a direita (`A1` a `H8`). Caso o jogador não disponha de 1 Energia e 1 Água para todos os seus habitats, apenas os primeiros na ordem de leitura são abastecidos e acolhem colonos; os restantes ficam inativos.
-4. **Terminação Segura da Aplicação:**  
+3. **Terminação Segura da Aplicação:**  
    O ciclo de entrada em `Program.cs` interrompe a execução de forma limpa assim que deteta uma linha nula, vazia ou composta exclusivamente por caracteres de espaçamento.
 
 ---
